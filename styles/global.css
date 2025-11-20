@@ -34,5 +34,16 @@ img {
 }
 
 button {
-  font: inherit;
+  all: unset;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
