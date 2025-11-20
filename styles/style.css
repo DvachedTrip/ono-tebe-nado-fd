@@ -86,11 +86,6 @@
   inset: 0;
 }
 
-.cover__title {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .cover__description {
   display: flex;
   font-weight: 400;
