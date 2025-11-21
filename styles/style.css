@@ -19,8 +19,7 @@
   list-style: none;
 }
 
-.header__link_active,
-.footer__menu-link_active {
+.link_active {
   text-decoration: none;
 }
 
@@ -49,7 +48,7 @@
   background: url(../images/cover.jpg) center/cover no-repeat;
   min-height: 757px;
   color: white;
-  z-index: -2;
+  z-index: 0;
 }
 
 .cover__title {
@@ -63,6 +62,14 @@
   font-size: 100px;
   gap: 20px;
   padding: 165px 50px 106px 50px;
+}
+
+.aligned-text,
+.cover__description-text,
+.bet-button,
+.card__title,
+.card__text {
+  z-index: 2;
 }
 
 .aligned-text {
@@ -82,7 +89,7 @@
 .overlay {
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
-  z-index: -1;
+  z-index: 1;
   inset: 0;
 }
 
@@ -101,7 +108,7 @@
 }
 
 .bet-button {
-  border: 1px solid white;
+  border: 1px solid currentColor;
   padding: 11px 31px;
   display: inline-block;
 }
@@ -119,6 +126,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   padding: 27px 24px 30px 24px;
 }
@@ -225,7 +233,7 @@
 
 .footer {
   font-size: 18px;
-  margin: 180px 50px;
+  margin: 180px 50px 0px 50px;
   display: grid;
   grid-column: 3fr;
   justify-content: space-between;
