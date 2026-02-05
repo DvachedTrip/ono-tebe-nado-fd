@@ -18,7 +18,7 @@
 
 ## 🖼 Скриншот проекта
 
-[Скриншот проекта](./screenshot.png)
+![Скриншот проекта](./screenshot.png)
 
 https://github.com/DvachedTrip/ono-tebe-nado-fd
 
